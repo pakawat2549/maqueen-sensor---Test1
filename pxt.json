@@ -1,0 +1,24 @@
+{
+    "name": "Maqueen sensor กับ ตามเส้น ทดลอง1",
+    "version": "0.0.2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.12",
+        "maqueen": "github:dfrobot/pxt-maqueen#3f1919f828f021b20a2807b256c7bd3fff0a4ed7",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
