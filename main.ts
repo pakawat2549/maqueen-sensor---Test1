@@ -25,7 +25,7 @@ basic.forever(function () {
             basic.pause(600)
             maqueen.motorStop(maqueen.Motors.All)
             maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
-            basic.pause(600)
+            basic.pause(200)
             maqueen.motorStop(maqueen.Motors.All)
             maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 255)
             basic.pause(700)
@@ -37,7 +37,7 @@ basic.forever(function () {
             basic.pause(700)
             maqueen.motorStop(maqueen.Motors.All)
             maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
-            basic.pause(600)
+            basic.pause(200)
             maqueen.motorStop(maqueen.Motors.All)
         }
     }
